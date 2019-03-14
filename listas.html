@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!--css (estilo) local-->
+    <style>
+    /* selector (seletor) seleciona o(s) elemento(s) */
+    h1{
+        font-size: 3em /* em(phasis)=1x 16xpt*/
+    }
+    h2{
+        color:darkblue;
+    }
+    #naruto{ /* qualquer elemento com o id="naruto" */
+        font-family: Arial, Helvetica, sans-serif;
+        background-color:orange
+    }
+    .par{ /*qualquer elemento com a class="par"*/
+        background-color: palevioletred;
+    }
+    .impar{ /*qualquer elemento com a class="impar" */
+        background-color: fuchsia;
+    }
+    li.enfase{ /* li com a class="enfase" */
+        font-weight: bold;
+    }
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center; color:aqua">listas</h1>
+
+    <h2>listas numeradas</h2>
+
+    <ol> <!--ordered list (ol)-->
+        <li class="impar">matematica II</li> <!--list item (li)-->
+        <li class="par enfase">historia</li>
+        <li class="impar">DBO</li>
+        <li class="par">quimica</li>
+        <ol>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ol>
+    </ol>
+
+    <h2>listas de tópicos</h2>
+
+    <ul><!--lista n ordenada/sem numeração-->
+        <ul>
+            <li>ovo</li>
+            <li>leite</li>
+            <li id="naruto">naruto</li>
+            <li>nutella</li>
+        </ul>
+    </ul>
+    <button>troca!!!</button>
+    <script src="dom.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!--smp q tiver oculto tu da ctrl h-->
